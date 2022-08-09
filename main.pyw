@@ -11,11 +11,11 @@ screen = pg.display.set_mode((700,500))
 pg.display.set_caption('Pong')
 
 paddleA = Paddle(white, 10, 100)
-paddleA.rect.x = 20
+paddleA.rect.x = 5
 paddleA.rect.y = 200
 
 paddleB = Paddle(white, 10, 100)
-paddleB.rect.x = 670
+paddleB.rect.x = 685
 paddleB.rect.y = 200
 
 ball = Ball(white, 10, 10)
@@ -75,7 +75,7 @@ while carryon:
     asl.draw(screen)
 
     #Display scores:
-    font = pg.font.Font(None, 74)
+    font = pg.font.Font('slkscr.ttf', 78)
     text = font.render(str(sa), 1, white)
     screen.blit(text, (250,10))
     text = font.render(str(sb), 1, white)

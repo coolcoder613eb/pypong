@@ -3,3 +3,6 @@
 *.dist/
 *.build/
 *.onefile-build/
+file.py
+print.py
+a.bat
