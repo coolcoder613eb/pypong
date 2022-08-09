@@ -3,6 +3,7 @@
 *.dist/
 *.build/
 *.onefile-build/
+!main.exe
 file.py
 print.py
 a.bat
