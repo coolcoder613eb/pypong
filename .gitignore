@@ -4,6 +4,9 @@
 *.build/
 *.onefile-build/
 !main.exe
-file.py
-print.py
+*.py
+*.pyw
+!main.pyw
+!ball.py
+!paddle.py
 a.bat
