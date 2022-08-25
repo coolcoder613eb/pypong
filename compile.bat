@@ -1,5 +1,6 @@
 @echo off
 cd
+title Compile
 rem --enable-plugin=numpy
 CHOICE /C mo /M "Press M to compile main.pyw or Press O to compile another file."
 
